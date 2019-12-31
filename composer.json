@@ -1,0 +1,35 @@
+{
+  "name": "liguangchun/smsbao",
+  "description": "短信宝插件",
+  "keywords": [
+    "liguangchun",
+    "smsbao"
+  ],
+  "authors": [
+    {
+      "name": "Chaim",
+      "email": "gc@dtapp.net",
+      "homepage": "https://api.dtapp.net"
+    }
+  ],
+  "homepage": "https://www.dtapp.net/",
+  "require": {
+    "php": ">=7.0",
+    "liguangchun/dtapp": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DtApp\\SmsBao\\": "src"
+    }
+  },
+  "repositories": {
+    "0": {
+      "type": "composer",
+      "url": "https://packagist.dtapp.net"
+    },
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
