@@ -4,10 +4,10 @@
 
 📦 短信宝PHP扩展包
 
-[![Latest Stable Version](https://poser.pugx.org/liguangchun/dtapp/v/stable)](https://packagist.org/packages/liguangchun/smsbao) 
-[![Latest Unstable Version](https://poser.pugx.org/liguangchun/dtapp/v/unstable)](https://packagist.org/packages/liguangchun/smsbao) 
-[![Total Downloads](https://poser.pugx.org/liguangchun/dtapp/downloads)](https://packagist.org/packages/liguangchun/smsbao) 
-[![License](https://poser.pugx.org/liguangchun/dtapp/license)](https://packagist.org/packages/liguangchun/smsbao)
+[![Latest Stable Version](https://poser.pugx.org/liguangchun/smsbao/v/stable)](https://packagist.org/packages/liguangchun/smsbao) 
+[![Latest Unstable Version](https://poser.pugx.org/liguangchun/smsbao/v/unstable)](https://packagist.org/packages/liguangchun/smsbao) 
+[![Total Downloads](https://poser.pugx.org/liguangchun/smsbao/downloads)](https://packagist.org/packages/liguangchun/smsbao) 
+[![License](https://poser.pugx.org/liguangchun/smsbao/license)](https://packagist.org/packages/liguangchun/smsbao)
 
 ## 依赖环境
 
