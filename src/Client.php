@@ -1,5 +1,7 @@
 <?php
 
+namespace SmsBao;
+
 use DtApp\Tool\DtAppException;
 
 /**

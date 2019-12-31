@@ -3,6 +3,8 @@
  * (c) Chaim <gc@dtapp.net>
  */
 
+namespace SmsBao;
+
 /**
  * 查询
  * Class Query
