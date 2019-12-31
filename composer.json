@@ -1,5 +1,6 @@
 {
   "name": "liguangchun/smsbao",
+  "license": "MIT",
   "description": "短信宝插件",
   "keywords": [
     "liguangchun",
@@ -12,6 +13,7 @@
       "homepage": "https://api.dtapp.net"
     }
   ],
+  "type": "library",
   "homepage": "https://www.dtapp.net/",
   "require": {
     "php": ">=7.0",
