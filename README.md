@@ -20,19 +20,19 @@
 ## 安装
 
 ```text
-composer require liguangchun/smsbao
+composer require liguangchun/smsbao -vvv
 ```
 
 ## 更新
 
 ```text
-composer update liguangchun/smsbao
+composer update liguangchun/smsbao -vvv
 ```
 
 ## 删除
 
 ```text
-composer remove liguangchun/smsbao
+composer remove liguangchun/smsbao -vvv
 ```
 
 
