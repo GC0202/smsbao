@@ -7,7 +7,6 @@ namespace SmsBao;
 
 /**
  * 发送
- * Class Send
  */
 class Send extends Base
 {

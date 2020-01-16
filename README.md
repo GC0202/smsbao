@@ -13,6 +13,9 @@
 
 1. PHP7.0 版本及以上（低版本和7.4版本未做兼容处理！）
 
+## 使用文档
+
+[文档链接][https://apidoc.dtapp.net/web/#/9]
 
 ## 安装
 
@@ -31,3 +34,6 @@ composer update liguangchun/smsbao
 ```text
 composer remove liguangchun/smsbao
 ```
+
+
+[https://apidoc.dtapp.net/web/#/9]: https://apidoc.dtapp.net/web/#/9

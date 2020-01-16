@@ -16,8 +16,7 @@
   "type": "library",
   "homepage": "https://www.dtapp.net/",
   "require": {
-    "php": ">=7.0",
-    "liguangchun/dtapp": "^1.0"
+    "php": ">=7.0"
   },
   "autoload": {
     "psr-4": {

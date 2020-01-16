@@ -7,7 +7,6 @@ namespace SmsBao;
 
 /**
  * 中间件
- * Class Base
  */
 class Base extends Client
 {

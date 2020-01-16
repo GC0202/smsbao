@@ -2,9 +2,9 @@
 
 namespace SmsBao;
 
-use DtApp\Tool\DtAppException;
 
 /**
+ * 入口
  * (c) Chaim <gc@dtapp.net>
  */
 class Client
@@ -34,22 +34,32 @@ class Client
      * @param string $template 模板
      * @param string $rep 替换
      * @return mixed
-     * @throws DtAppException
+     * @throws SmsBaoException
      */
     public function sendSms(int $iphone, $code, string $template, string $rep)
     {
-        if (empty($this->user) || empty($this->pass) || empty($iphone) || empty($code) || empty($template) || empty($rep)) throw new DtAppException('请检查参数');
+        $this->judgeConfig();
+        if (empty($iphone) || empty($code) || empty($template) || empty($rep)) throw new SmsBaoException('请检查参数');
         return (new Send())->sms($this->user, $this->pass, $iphone, $code, $template, $rep);
     }
 
     /**
      * 获取当前账号余额
      * @return bool|false|string
-     * @throws DtAppException
+     * @throws SmsBaoException
      */
     public function queryBalance()
     {
-        if (empty($this->user) || empty($this->pass)) throw new DtAppException('请检查参数');
+        $this->judgeConfig();
         return (new Query())->balance($this->user, $this->pass);
+    }
+
+    /**
+     * 检查配置
+     * @throws SmsBaoException
+     */
+    private function judgeConfig()
+    {
+        if (empty($this->user) || empty($this->pass)) throw new SmsBaoException('请配置账号密码');
     }
 }
