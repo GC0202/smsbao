@@ -1,7 +1,9 @@
 <?php
+/**
+ * (c) Chaim <gc@dtapp.net>
+ */
 
 namespace SmsBao;
-
 
 /**
  * 入口
@@ -21,6 +23,11 @@ class Client
      */
     private $pass = '';
 
+    /**
+     * 配置
+     * Client constructor.
+     * @param array $config
+     */
     public function __construct(array $config = [])
     {
         if (!empty($config['user'])) $this->user = $config['user'];

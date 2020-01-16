@@ -7,6 +7,7 @@ use SmsBao\Client;
 
 require_once '../vendor/autoload.php';
 
+// 配置
 $smsbao = new Client([
     'user' => '',
     'pass' => ''
