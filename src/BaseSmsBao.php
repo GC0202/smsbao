@@ -3,18 +3,26 @@
  * (c) Chaim <gc@dtapp.net>
  */
 
-namespace SmsBao;
+
+namespace LiGuAngChUn\SmsBao;
 
 /**
  * 中间件
+ * Class BaseSmsBao
+ * @package LiGuAngChUn\SmsBao
  */
-class Base extends Client
+class BaseSmsBao
 {
     /**
-     * 接口Api
-     * @var string
+     * 定义当前版本
      */
-    protected $url = 'http://api.smsbao.com/';
+    const VERSION = '1.0.5';
+
+    /**
+     * 配置
+     * @var
+     */
+    public $config;
 
     /**
      * 官方错误码
@@ -32,4 +40,22 @@ class Base extends Client
         "50" => "内容含有敏感词",
         "51" => "手机号码不正确"
     ];
+
+    /**
+     * BaseSmsBao constructor.
+     * @param array $options
+     */
+    public function __construct(array $options = [])
+    {
+        $this->config = new DataArray($options);
+    }
+
+    /**
+     * 接口网址
+     * @return string
+     */
+    protected function getUrl()
+    {
+        return 'https://api.smsbao.com/';
+    }
 }

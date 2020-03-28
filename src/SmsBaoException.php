@@ -3,7 +3,7 @@
  * (c) Chaim <gc@dtapp.net>
  */
 
-namespace SmsBao;
+namespace LiGuAngChUn\SmsBao;
 
 use Exception;
 
