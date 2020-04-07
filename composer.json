@@ -1,6 +1,6 @@
 {
   "name": "liguangchun/smsbao",
-  "description": "短信宝插件",
+  "description": "短信宝PHP扩展包",
   "keywords": [
     "liguangchun",
     "smsbao",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "dtApp\\SmsBao\\": "src"
+      "DtApp\\SmsBao\\": "src"
     }
   },
   "repositories": {

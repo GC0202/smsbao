@@ -14,9 +14,9 @@
 // | Packagist 地址 ：https://packagist.org/packages/liguangchun/smsbao
 // +----------------------------------------------------------------------
 
-use dtApp\SmsBao\Send;
-use dtApp\SmsBao\SmsBaoException;
-use dtApp\SmsBao\User;
+use DtApp\SmsBao\Send;
+use DtApp\SmsBao\SmsBaoException;
+use DtApp\SmsBao\User;
 
 require_once '../vendor/autoload.php';
 

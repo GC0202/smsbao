@@ -14,19 +14,19 @@
 // | Packagist 地址 ：https://packagist.org/packages/liguangchun/smsbao
 // +----------------------------------------------------------------------
 
-namespace dtApp\SmsBao;
+namespace DtApp\SmsBao;
 
 /**
  * 中间件
  * Class BaseSmsBao
- * @package dtApp\SmsBao
+ * @package DtApp\SmsBao
  */
 class BaseSmsBao
 {
     /**
      * 定义当前版本
      */
-    const VERSION = '1.0.6';
+    const VERSION = '1.0.7';
 
     /**
      * 配置

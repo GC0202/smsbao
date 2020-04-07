@@ -14,10 +14,12 @@
 // | Packagist 地址 ：https://packagist.org/packages/liguangchun/smsbao
 // +----------------------------------------------------------------------
 
-namespace dtApp\SmsBao;
+namespace DtApp\SmsBao;
 
 /**
  * 用户
+ * Class User
+ * @package DtApp\SmsBao
  */
 class User extends BaseSmsBao
 {

@@ -14,10 +14,15 @@
 // | Packagist 地址 ：https://packagist.org/packages/liguangchun/smsbao
 // +----------------------------------------------------------------------
 
-namespace dtApp\SmsBao;
+namespace DtApp\SmsBao;
 
 use ArrayAccess;
 
+/**
+ * 配置
+ * Class DataArray
+ * @package DtApp\SmsBao
+ */
 class DataArray implements ArrayAccess
 {
     /**

@@ -14,13 +14,14 @@
 // | Packagist 地址 ：https://packagist.org/packages/liguangchun/smsbao
 // +----------------------------------------------------------------------
 
-namespace dtApp\SmsBao;
+namespace DtApp\SmsBao;
 
 use Exception;
 
 /**
  * 处理错误
- * @package SmsBao
+ * Class SmsBaoException
+ * @package DtApp\SmsBao
  */
 class SmsBaoException extends Exception
 {

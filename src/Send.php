@@ -14,10 +14,12 @@
 // | Packagist 地址 ：https://packagist.org/packages/liguangchun/smsbao
 // +----------------------------------------------------------------------
 
-namespace dtApp\SmsBao;
+namespace DtApp\SmsBao;
 
 /**
  * 发送短信
+ * Class Send
+ * @package DtApp\SmsBao
  */
 class Send extends BaseSmsBao
 {
