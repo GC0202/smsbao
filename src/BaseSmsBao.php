@@ -1,22 +1,32 @@
 <?php
-/**
- * (c) Chaim <gc@dtapp.net>
- */
 
+// +----------------------------------------------------------------------
+// | 短信宝PHP扩展
+// +----------------------------------------------------------------------
+// | 版权所有 2017~2020 [ https://www.dtapp.net ]
+// +----------------------------------------------------------------------
+// | 官方网站: https://gitee.com/liguangchun/smsbao
+// +----------------------------------------------------------------------
+// | 开源协议 ( https://mit-license.org )
+// +----------------------------------------------------------------------
+// | gitee 仓库地址 ：https://gitee.com/liguangchun/smsbao
+// | github 仓库地址 ：https://github.com/GC0202/smsbao
+// | Packagist 地址 ：https://packagist.org/packages/liguangchun/smsbao
+// +----------------------------------------------------------------------
 
-namespace LiGuAngChUn\SmsBao;
+namespace dtApp\SmsBao;
 
 /**
  * 中间件
  * Class BaseSmsBao
- * @package LiGuAngChUn\SmsBao
+ * @package dtApp\SmsBao
  */
 class BaseSmsBao
 {
     /**
      * 定义当前版本
      */
-    const VERSION = '1.0.5';
+    const VERSION = '1.0.6';
 
     /**
      * 配置

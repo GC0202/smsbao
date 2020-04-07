@@ -1,33 +1,34 @@
 {
   "name": "liguangchun/smsbao",
-  "license": "MIT",
   "description": "短信宝插件",
   "keywords": [
     "liguangchun",
     "smsbao",
     "sms"
   ],
+  "time": "2019-12-31",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Chaim",
       "email": "gc@dtapp.net",
-      "homepage": "https://api.liguangchun.cn"
+      "homepage": "https://api.dtapp.net"
     }
   ],
-  "type": "library",
-  "homepage": "https://www.liguangchun.cn/",
+  "homepage": "https://www.dtapp.net/",
   "require": {
     "php": ">=7.0"
   },
   "autoload": {
     "psr-4": {
-      "LiGuAngChUn\\SmsBao\\": "src"
+      "dtApp\\SmsBao\\": "src"
     }
   },
   "repositories": {
     "0": {
       "type": "composer",
-      "url": "https://packagist.liguangchun.cn"
+      "url": "https://packagist.dtapp.net"
     },
     "packagist": {
       "type": "composer",

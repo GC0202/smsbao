@@ -2,6 +2,7 @@
 .idea
 .git
 .gitignore
+gitpush.cmd
 .vscode
 /vendor/
 composer.lock
